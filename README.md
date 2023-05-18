@@ -1,2 +1,2 @@
 # hs-hack
-Hack assembler written in Haskell
+[nand2tetris](https://www.nand2tetris.org/) Hack assembler written in Haskell
