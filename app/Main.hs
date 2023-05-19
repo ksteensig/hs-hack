@@ -1,5 +1,6 @@
 module Main where
 
+import Ast
 import qualified Data.Foldable as F
 import Parser
 import qualified Text.Megaparsec as M
