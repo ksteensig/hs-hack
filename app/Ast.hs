@@ -1,7 +1,5 @@
 module Ast where
 
-import qualified Data.Map as M
-
 aluMnemonicList =
   [ ("0", "0101010"),
     ("1", "0111111"),
@@ -37,8 +35,6 @@ aluMnemonicList =
     ("M", "1110000")
   ]
 
-aluMnemonicMap = M.fromList aluMnemonicList
-
 storageMnemonicList =
   [ ("", "000"),
     ("ADM", "111"),
@@ -52,8 +48,6 @@ storageMnemonicList =
     ("A", "100")
   ]
 
-storageMnemonicMap = M.fromList storageMnemonicList
-
 jumpMnemonicList =
   [ ("", "000"),
     ("JGT", "001"),
@@ -64,8 +58,6 @@ jumpMnemonicList =
     ("JLE", "110"),
     ("JMP", "111")
   ]
-
-jumpMnemonicMap = M.fromList jumpMnemonicList
 
 type Comment = String
 
